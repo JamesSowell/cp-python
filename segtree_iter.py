@@ -1,3 +1,4 @@
+# max ^ defualt
 class SegmentTreeIterative:
     def __init__(self, data):
         self.n = len(data)
