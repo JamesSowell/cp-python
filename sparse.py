@@ -1,10 +1,6 @@
 
-# st = SparseTable(A, min)
-
-# st.query(1, 3)  # min(2, 7, 1) = 1
-# st.query(0, 1)  # min(4, 2) = 2
-# st.query(2, 2)  # min(7) = 7
-
+# st = SparseTable(A, min) # can use 'min, max, gcd'
+# [l, r] inclusive
 class SparseTable:
     def __init__(self, arr, op=min):
         n = len(arr)
